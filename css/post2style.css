@@ -1,0 +1,135 @@
+body {
+    overflow-x: hidden;
+    background-color: rgb(24, 17, 69);
+    font-family:'Segoe UI', Verdana, sans-serif ;
+    color:rgb(255, 243, 240);
+}
+
+h1 {
+    font-size: 400%;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 300%;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3 {
+    font-size: 200%;
+    font-weight: 300;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 243, 240);
+}
+
+p {
+    font-size: 100%;
+    font-size: 100%;
+    font-weight: 100;
+    line-height: 30px;
+}
+.bannercard img{
+    height: 50vh;
+    width: 180vh;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.main-title {
+    position: absolute;
+    top: 15%;
+    padding-left: 40%;
+}
+
+.main-title span {
+    background-color: rgb(24, 17, 69);
+    border: 10px solid rgb(24, 17, 69);
+}
+
+.date {
+    border-bottom-style: dashed;
+    padding-bottom: 3px;
+    margin-left: 15px;
+}
+
+.resize2 {
+    width: 30%;
+    padding: 1%;
+    background-color: rgb(85, 73, 166);
+}
+
+.container {
+    text-indent: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.postings {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    justify-content:space-evenly;
+    margin-top: 3%;
+}
+
+.resize {
+    width: 10%;
+    height: 10%;
+}
+
+.otherblogs {
+    border-top-style: dashed;
+    border-color: rgb(255, 243, 240);
+}
+.blogbuttons {
+    font-size: 300%;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    padding-bottom:5%;
+    justify-content:space-evenly;
+    text-decoration: none;
+}
+
+.postlink1{
+    font-family: 'Segoe UI',Verdana, sans-serif;
+    color: rgb(255, 243, 240);
+    background-color: rgb(85, 73, 166);
+    padding-left: 140px;
+    padding-right: 140px;
+    border-radius: 5px;
+}
+
+.postlink2 {
+    font-family: 'Segoe UI',Verdana, sans-serif;
+    color: rgb(255, 243, 240);
+    background-color: rgb(85, 73, 166);
+    padding-left: 140px;
+    padding-right: 140px;
+    border-radius: 5px;
+}
+
+.homelink {
+    font-family: 'Segoe UI',Verdana, sans-serif;
+    color: rgb(255, 243, 240);
+    background-color: rgb(85, 73, 166);
+    border-radius: 5px;
+}
+
+.postlink1:hover {
+    box-shadow: 10px 8px 5px rgba(0, 0, 0, 0.228);
+}
+
+.postlink2:hover {
+    box-shadow: 10px 8px 5px rgba(0, 0, 0, 0.228);
+}
+
+.homelink:hover {
+    box-shadow: 10px 8px 5px rgba(0, 0, 0, 0.228);
+}
